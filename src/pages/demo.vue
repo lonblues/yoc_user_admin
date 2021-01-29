@@ -175,7 +175,6 @@ export default {
               let div = document.createElement('div');
               div.setAttribute('id',user.userId);
               div.style.width = '300px';
-              div.style.height = '200px';
               let remote = document.getElementById('remote')
               remote.appendChild(div)
 
@@ -198,8 +197,7 @@ export default {
             }else{
               let div = document.createElement('div');
               div.setAttribute('id',user.userId);
-              div.style.width = '640px';
-              div.style.height = '500px';
+              div.style.width = '300px';
               let remote = document.getElementById('remote')
               remote.appendChild(div)
 
