@@ -258,10 +258,9 @@ export default {
               bitrate: 600,
               height: 1080,
               width: 1920,
+              audio: true 
           },
-          audio: {
-              enabled: false,
-          }
+          
         })
       } catch (e) {
         console.error(e)
